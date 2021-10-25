@@ -1,0 +1,6 @@
+.place__text {
+  grid-area: text;
+
+  font-size: 18px;
+  line-height: 163%;
+}
