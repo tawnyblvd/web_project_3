@@ -17,4 +17,4 @@ This is a project that showcases the hometowns of some of Practicum's employees 
 
 **Github Page**
 
-Placeholder for Github Page link here
+Find it on Github Pages here: (https://tawnyblvd.github.io/web_project_3/index.html).
