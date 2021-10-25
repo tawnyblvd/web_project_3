@@ -21,8 +21,8 @@
 
 @media screen and (max-width: 425px) {
   .photo-grid {
-    grid-template-columns: 100%;
-    grid-template-rows: 100%;
+    grid-template-columns: min-content;
+    grid-template-rows: min-content;
     grid-gap: 12px;
     margin-top: 90px;
     max-width: 288px;
