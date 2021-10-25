@@ -2,6 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 91px 0 0 0;
+  margin: 91px auto 0 auto;
   padding: 0;
 }
