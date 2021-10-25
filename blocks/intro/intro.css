@@ -1,8 +1,20 @@
 .intro {
   display: flex;
   flex-direction: column;
-  margin: 92px 0 0 0;
+  margin: 92px auto 0 148px;
   padding: 0;
-  position: relative;
-  right: 7vw;
+}
+
+@media screen and (max-width: 820px) {
+  .intro {
+    justify-content: center;
+    margin: 88px auto 0 24px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    margin: 64px auto 0 auto;
+  }
 }
