@@ -1,3 +1,4 @@
 .place__button {
   grid-area: button;
+  max-width: 248px;
 }
