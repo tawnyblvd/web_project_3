@@ -8,7 +8,7 @@
 
 **Intro**
 
-This is a project that showcases the hometowns of some of Practicum's employees. We've made it so all the elements are displayed correctly on popular screen sizes.
+This is a project that showcases the hometowns of some of Practicum's employees and students. We've made it so all the elements are displayed correctly on popular screen sizes.
 
 **Technologies Used**
 
