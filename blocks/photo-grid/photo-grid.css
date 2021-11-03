@@ -4,7 +4,6 @@
   grid-template-rows: 50% 50%;
   grid-gap: 10px 10px;
   justify-content: center;
-
   margin: 118px 0 0 0;
   padding: 0;
   max-width: 90%;
@@ -23,7 +22,7 @@
   .photo-grid {
     grid-template-columns: 100%;
     grid-template-rows: 100%;
-    /* grid-gap: 12px; */
-    margin-top: 90px;
+    grid-gap: 10px 0px;
+    margin-top: 10px;
   }
 }
