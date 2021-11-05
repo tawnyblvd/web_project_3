@@ -7,6 +7,7 @@
   margin: 118px 0 0 0;
   padding: 0;
   max-width: 90vw;
+  width: 100%;
   max-height: 100%;
 }
 
@@ -14,7 +15,8 @@
   .photo-grid {
     grid-template-columns: 50% 50%;
     grid-template-rows: 25% 25% 25% 25%;
-    margin-top: 88px;
+    grid-gap: 10px 2px;
+    margin: 88px 0 0 0;
     max-width: 85vw;
   }
 }
@@ -24,13 +26,7 @@
     grid-template-columns: 100%;
     grid-template-rows: repeat(8, 1fr);
     grid-gap: 15px 0px;
-    margin-top: 100px;
-    max-width: 80vw;
-  }
-}
-
-@media screen and (min-width: 1700px) {
-  .photo-grid {
-    max-width: 90%;
+    margin: 100px auto 0 5vw;
+    max-width: 90vw;
   }
 }
