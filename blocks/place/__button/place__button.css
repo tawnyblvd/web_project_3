@@ -2,3 +2,9 @@
   grid-area: button;
   max-width: 248px;
 }
+
+@media screen and (max-width: 425px) {
+  .place__button {
+    margin-top: 10px;
+  }
+}

@@ -17,10 +17,10 @@
 
 @media screen and (max-width: 425px) {
   .place {
-    grid-template-areas: "title" "artist" "image" "text" "button";
-    grid-gap: 30px;
-    grid-template-columns: 100%;
-    grid-template-rows: 100%;
-    margin-top: 48px;
+    grid-template-areas: "title" "artist" "image" "text" "text" "button";
+    grid-gap: 7px;
+    grid-template-columns: 90vw;
+    grid-template-rows: repeat(6, min-content);
+    margin-top: 30px;
   }
 }
