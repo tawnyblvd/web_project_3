@@ -2,9 +2,11 @@
   display: flex;
   flex-direction: column;
   align-content: flex-start;
-  margin: 92px auto 0 60px;
+  /* margin: 92px auto 0 60px; */
+  margin: 92px 350px 0 150px;
   padding: 0;
   text-align: left;
+  max-width: 785px;
 }
 
 @media screen and (max-width: 820px) {
@@ -20,3 +22,9 @@
     margin: 64px 5vw 0 5vw;
   }
 }
+/* 
+@media screen and (min-width: 1300px) {
+  .intro {
+    margin-left: 17%;
+  }
+} */
