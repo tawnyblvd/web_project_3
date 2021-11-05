@@ -9,7 +9,11 @@
 
 @media screen and (max-width: 820px) {
   .lead__title {
-    margin-left: 5vw;
+    /* max-width: min-content; */
+    /* max-height: min-content; */
+    font-size: 75px;
+    max-width: 720px;
+    align-self: center;
   }
 }
 

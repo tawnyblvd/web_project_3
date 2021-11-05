@@ -6,6 +6,12 @@
   max-width: 60vw;
 }
 
+@media screen and (max-width: 820px) {
+  .lead__subtitle {
+    max-width: 90vw;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .lead__subtitle {
     max-width: 288px;
