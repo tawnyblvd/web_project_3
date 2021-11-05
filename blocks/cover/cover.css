@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 820px) {
   .cover {
-    object-fit: contain;
+    object-fit: cover;
     max-height: 100%;
   }
 }
