@@ -28,3 +28,9 @@
     max-width: 80vw;
   }
 }
+
+@media screen and (min-width: 1700px) {
+  .photo-grid {
+    max-width: 90%;
+  }
+}
