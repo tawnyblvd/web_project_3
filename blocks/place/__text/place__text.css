@@ -10,7 +10,6 @@
 @media screen and (max-width: 820px) and (min-width: 426px) {
   .place__text {
     max-width: 352px;
-    margin-top: 10px;
     font-size: 16px;
   }
 
