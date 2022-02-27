@@ -11,11 +11,12 @@
   .place__text {
     max-width: 352px;
     margin-top: 10px;
-  }
-
-  .place__text:nth-of-type(even) {
     font-size: 16px;
   }
+
+  /* .place__text:nth-of-type(even) {
+    font-size: 16px;
+  } */
 }
 
 @media screen and (max-width: 425px) {
