@@ -1,6 +1,8 @@
 .place__image {
   grid-area: image;
-  width: 100%;
+  object-fit: cover;
+  width: 460px;
+  height: 460px;
 }
 
 .place__image:hover {
@@ -9,14 +11,16 @@
 
 @media screen and (max-width: 820px) {
   .place__image {
-    width: 90vw;
-    max-width: 100%;
+    width: 340px;
+    height: 340px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .place__image {
-    max-height: 100%;
-    margin-top: 10px;
+    margin: 0;
+    padding-top: 20px;
+    width: 320px;
+    height: 320px;
   }
 }

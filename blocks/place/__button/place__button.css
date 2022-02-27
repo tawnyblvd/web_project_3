@@ -1,10 +1,13 @@
 .place__button {
   grid-area: button;
+  margin: 0;
   max-width: 248px;
 }
 
 @media screen and (max-width: 425px) {
   .place__button {
-    margin-top: 10px;
+    margin: 23px 16px 0 16px;
+    padding: 13px 40px;
+    max-width: 288px;
   }
 }

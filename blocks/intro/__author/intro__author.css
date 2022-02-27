@@ -1,8 +1,16 @@
 .intro__author {
   font-weight: normal;
   font-size: 24px;
-  line-height: 1.2;
+  line-height: 1.5;
   text-align: right;
   max-width: 690px;
   margin: 10px 0 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 820px) {
+  .intro__author {
+    line-height: 1.42;
+    max-width: 720px;
+  }
 }

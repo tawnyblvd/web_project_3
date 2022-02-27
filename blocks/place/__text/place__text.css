@@ -1,12 +1,28 @@
 .place__text {
   grid-area: text;
+  width: 484px;
+  margin: 0;
+  padding: 0;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.63;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 820px) and (min-width: 426px) {
+  .place__text {
+    max-width: 352px;
+    margin-top: 10px;
+  }
+
+  .place__text:nth-of-type(even) {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .place__text {
     font-size: 16px;
-    margin-top: 10px;
+    max-width: 290px;
+    max-height: 100%;
+    margin: 25px 16px 0 16px;
   }
 }
