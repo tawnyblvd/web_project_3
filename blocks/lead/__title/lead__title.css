@@ -12,6 +12,7 @@
   .lead__title {
     max-width: 720px;
     margin: 88px 24px 0 24px;
+    padding: 0;
   }
 }
 
@@ -20,6 +21,5 @@
     font-size: 40px;
     margin-top: 50px;
     line-height: 1.1;
-    padding: 0;
   }
 }
