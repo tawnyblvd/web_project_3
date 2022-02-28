@@ -11,11 +11,12 @@
   margin-top: 72px;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1000px) {
   .place {
     grid-template-columns: 340px 1fr;
+    grid-template-rows: min-content auto 1fr;
     grid-gap: 48px 28px;
-    margin-top: 85px;
+    margin-top: 75px;
   }
 
   .place:first-of-type {
@@ -23,13 +24,7 @@
   }
 }
 
-@media screen and (max-width: 675px) {
-  .place {
-    grid-template-columns: 250px 1fr;
-  }
-}
-
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 725px) {
   .place {
     grid-template-areas: "title" "artist" "image" "text" "text" "button";
     grid-gap: 7px;
