@@ -10,6 +10,7 @@
   .intro__description {
     line-height: 1.63;
     max-width: 720px;
+    margin-top: 30px;
   }
 }
 
