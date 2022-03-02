@@ -1,12 +1,12 @@
 .lead__image {
-  width: fit-content;
+  width: 76%;
   margin: 64px 0 0 148px;
   padding: 0;
 }
 
 @media screen and (max-width: 820px) {
   .lead__image {
-    max-width: 768px;
+    width: 100%;
     max-height: 890px;
     margin: 33px 0 0 0;
   }
