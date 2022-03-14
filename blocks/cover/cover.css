@@ -8,7 +8,7 @@
   margin: 92px auto 0 auto;
   padding: 0;
   width: 92%;
-  height: 740px;
+  min-height: 740px;
   position: relative;
   z-index: 0;
 }
