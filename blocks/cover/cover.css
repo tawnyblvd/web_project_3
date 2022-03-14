@@ -20,7 +20,7 @@
   height: 100%;
 
   background: #2a2c2f;
-  opacity: 0.2;
+  opacity: 25%;
   transition: 0.3s;
   z-index: -1;
 }
@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 820px) {
   .cover {
-    max-height: min-content;
+    min-height: min-content;
     max-width: 768px;
     width: 100%;
     margin-top: 88px;
