@@ -39,9 +39,3 @@
     margin-top: 88px;
   }
 }
-
-@media screen and (max-width: 425px) {
-  .cover {
-    max-width: 100vw;
-  }
-}
