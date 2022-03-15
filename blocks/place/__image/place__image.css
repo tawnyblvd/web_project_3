@@ -5,10 +5,6 @@
   height: 460px;
 }
 
-.place__image:hover {
-  opacity: 0.25;
-}
-
 @media screen and (max-width: 1100px) {
   .place__image {
     width: 100%;
