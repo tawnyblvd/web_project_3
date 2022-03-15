@@ -3,10 +3,12 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+
   background-image: url("../../images/__background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+
   margin: 92px auto 0 auto;
   padding: 0;
   width: 92%;
@@ -20,13 +22,13 @@
   position: absolute;
 
   background: #2a2c2f;
-  opacity: 25%;
+  opacity: 0.8;
   transition: 0.3s;
   z-index: -1;
 }
 
-.cover:hover::before {
-  opacity: 0.8;
+.cover:hover {
+  opacity: 0.3;
 }
 
 @media screen and (max-width: 820px) {
