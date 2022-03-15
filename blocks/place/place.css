@@ -15,7 +15,7 @@
   .place {
     grid-template-columns: 340px 1fr;
     grid-template-rows: min-content auto 1fr;
-    grid-gap: 36px 25px;
+    gap: 36px 25px;
     margin-top: 65px;
   }
 }
@@ -23,7 +23,7 @@
 @media screen and (max-width: 725px) {
   .place {
     grid-template-areas: "title" "artist" "image" "text" "text" "button";
-    grid-gap: 7px;
+    gap: 7px;
     grid-template-columns: 320px;
     grid-template-rows: repeat(6, min-content);
     margin-top: 46px;
