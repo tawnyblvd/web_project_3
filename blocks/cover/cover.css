@@ -43,5 +43,6 @@
 @media screen and (max-width: 425px) {
   .cover {
     min-height: 254px;
+    margin-top: 64px;
   }
 }
