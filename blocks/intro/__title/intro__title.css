@@ -11,6 +11,7 @@
   .intro__title {
     max-width: 720px;
     line-height: 1.07;
+    margin: 0 auto;
   }
 }
 
