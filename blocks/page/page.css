@@ -21,3 +21,10 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .page {
+    width: 100%;
+    min-width: 320px;
+  }
+}
