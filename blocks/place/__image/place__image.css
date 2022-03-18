@@ -15,7 +15,6 @@
 
 @media screen and (max-width: 820px) {
   .place__image {
-    width: 100%;
     max-height: 340px;
   }
 }
@@ -26,6 +25,5 @@
     padding-top: 20px;
     height: auto;
     max-height: 320px;
-    width: 100%;
   }
 }
