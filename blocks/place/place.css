@@ -24,7 +24,7 @@
   .place {
     grid-template-areas: "title" "artist" "image" "text" "text" "button";
     gap: 7px;
-    grid-template-columns: 320px;
+    grid-template-columns: 100%;
     grid-template-rows: repeat(6, min-content);
     margin-top: 46px;
   }
